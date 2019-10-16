@@ -23,7 +23,6 @@ export default () => (
         <CodePane>{`
 /* using LESS variables and mixin */
 
-
 @primary: #eeeeee;
 @secondary: #222831;
 @tertiary: #393e46;
@@ -37,10 +36,6 @@ export default () => (
 body {
   background-color: @primary;
   color: @tertiary;
-}
-
-h1 {
-  color: @secondary;
 }
 
 a {

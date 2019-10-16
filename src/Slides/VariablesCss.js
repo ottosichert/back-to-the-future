@@ -22,8 +22,7 @@ export default () => (
       </Center>
       <Center>
         <CodePane>{`
-/* using CSS variables and property sets */
-
+/* using modern CSS variables */
 :root {
   --primary: #eeeeee;
   --secondary: #222831;
@@ -38,10 +37,6 @@ export default () => (
 body {
   background-color: var(--primary);
   color: var(--tertiary);
-}
-
-h1 {
-  color: var(--secondary);
 }
 
 a {

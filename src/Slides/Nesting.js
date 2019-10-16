@@ -24,17 +24,12 @@ export default () => (
       <Center>
         <CodePane>{`
 /* show class attribute */
-
 div[class]::before {
-  content: '<div class="' attr(class) '">'
-}
-
-p[class]::before {
-  content: '<p class="' attr(class) '">'
+  content:
+    '<div class="' attr(class) '">'
 }
 
 /* custom styles */
-
 .pretty {
   font-style: italic;
 }

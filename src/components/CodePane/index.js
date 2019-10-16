@@ -1,14 +1,18 @@
 import React from 'react';
+import styled from 'react-emotion';
 import { CodePane } from 'spectacle';
 
 import "./index.css";
 
-const CustomCodePane = ({ children, ...props }) => (
+
+const CustomCodePane = styled(({ children, ...props }) => (
   <CodePane
     source={children.trim()}
     {...props}
   />
-);
+))`
+  font-size: 1rem;
+`;
 
 CustomCodePane.defaultProps = {
   ...CustomCodePane.defaultProps,

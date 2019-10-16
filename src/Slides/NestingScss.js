@@ -24,7 +24,6 @@ export default () => (
       <Center>
         <CodePane>{`
 /* nested styles using SCSS */
-
 .pretty {
   font-style: italic;
 }

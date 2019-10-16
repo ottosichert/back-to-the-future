@@ -19,7 +19,6 @@ export default () => (
       <Center>
         <CodePane>{`
 /* color theme */
-
 body {
   background-color: #eeeeee;
   color: #393e46;
