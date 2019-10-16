@@ -17,11 +17,7 @@ export default () => (
         <Text fit>Modern CSS without Tech Debt</Text>
       </Center>
       <Center>
-        <CodePane
-          className="slide-code"
-          lang="css"
-          padding="0 4rem"
-          source={`
+        <CodePane>{`
 /* color theme */
 
 body {
@@ -36,8 +32,7 @@ h1 {
 a {
   color: #00adb5;
 }
-          `.trim()}
-        />
+        `}</CodePane>
       </Center>
     </Layout>
   </Slide>

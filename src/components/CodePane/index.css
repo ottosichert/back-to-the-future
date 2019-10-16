@@ -1,0 +1,4 @@
+.CustomCodePane {
+  height: 680px;
+  max-height: calc(100vh - 30px);
+}
