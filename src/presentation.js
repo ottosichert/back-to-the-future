@@ -13,6 +13,12 @@ import Nesting from './slides/Nesting';
 import NestingLess from './slides/NestingLess';
 import NestingScss from './slides/NestingScss';
 import NestingCss from './slides/NestingCss';
+import Features1 from './slides/Features1';
+import Features2 from './slides/Features2';
+import Features3 from './slides/Features3';
+import Features4 from './slides/Features4';
+import Features5 from './slides/Features5';
+import Features6 from './slides/Features6';
 import theme from './theme';
 
 export default () => (
@@ -27,5 +33,11 @@ export default () => (
     <NestingLess />
     <NestingScss />
     <NestingCss />
+    <Features1 />
+    <Features2 />
+    <Features3 />
+    <Features4 />
+    <Features5 />
+    <Features6 />
   </Deck>
 );
