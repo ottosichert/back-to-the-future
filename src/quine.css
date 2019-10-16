@@ -21,3 +21,10 @@
 .quine span::after, .quine p::after {
   content: '</p>'
 }
+
+.quine div.tag::before {
+  content: '<div>'
+}
+.quine div.tag::after {
+  content: '</div>'
+}
