@@ -41,6 +41,8 @@
   content: '<p class="pretty">'
 }
 
+/* custom styles */
+
 .pretty {
   font-style: italic;
 }
@@ -56,4 +58,12 @@
 
 .different .pretty:not(:last-child) {
   text-transform: capitalize;
+}
+
+li {
+  list-style-position: outside;
+}
+
+li::marker {
+  color: #00adb5;
 }
