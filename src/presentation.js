@@ -21,6 +21,7 @@ import Features5 from './slides/Features5';
 import Features6 from './slides/Features6';
 import Preprocessors from './slides/Preprocessors';
 import Postprocessors from './slides/Postprocessors';
+import Processors from './slides/Processors';
 import theme from './theme';
 
 export default () => (
@@ -43,5 +44,6 @@ export default () => (
     <Features6 />
     <Preprocessors />
     <Postprocessors />
+    <Processors />
   </Deck>
 );
