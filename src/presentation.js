@@ -10,6 +10,9 @@ import VariablesLess from './slides/VariablesLess';
 import VariablesScss from './slides/VariablesScss';
 import VariablesCss from './slides/VariablesCss';
 import Nesting from './slides/Nesting';
+import NestingLess from './slides/NestingLess';
+import NestingScss from './slides/NestingScss';
+import NestingCss from './slides/NestingCss';
 import theme from './theme';
 
 export default () => (
@@ -21,5 +24,8 @@ export default () => (
     <VariablesScss />
     <VariablesCss />
     <Nesting />
+    <NestingLess />
+    <NestingScss />
+    <NestingCss />
   </Deck>
 );
