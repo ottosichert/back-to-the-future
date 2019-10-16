@@ -1,0 +1,23 @@
+/* Subset of https://github.com/secretGeek/html_wysiwyg */
+
+.quine *::before, .quine *::after {
+  color: #00adb5;
+  font-size: 0.5rem;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.quine h1::before {
+  content: '<h1>'
+}
+.quine h1::after {
+  content: '</h1>'
+}
+
+/* pretend spectacle rendered <Text fit> as <p> */
+.quine span::before, .quine p::before {
+  content: '<p>'
+}
+.quine span::after, .quine p::after {
+  content: '</p>'
+}
