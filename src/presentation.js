@@ -8,7 +8,8 @@ import Theme from './slides/Theme';
 import Quine from './slides/Quine';
 import VariablesLess from './slides/VariablesLess';
 import VariablesScss from './slides/VariablesScss';
-import Variables from './slides/Variables';
+import VariablesCss from './slides/VariablesCss';
+import Nesting from './slides/Nesting';
 import theme from './theme';
 
 export default () => (
@@ -18,6 +19,7 @@ export default () => (
     <Quine />
     <VariablesLess />
     <VariablesScss />
-    <Variables />
+    <VariablesCss />
+    <Nesting />
   </Deck>
 );
