@@ -16,6 +16,7 @@ import NestingCss from './slides/NestingCss';
 import Preprocessors from './slides/Preprocessors';
 import Postprocessors from './slides/Postprocessors';
 import Processors from './slides/Processors';
+import Timeline from './slides/Timeline';
 import Trends from './slides/Trends';
 import PostCss from './slides/PostCss';
 import PostCssWebpack from './slides/PostCssWebpack';
@@ -42,6 +43,7 @@ export default () => (
     <Preprocessors />
     <Postprocessors />
     <Processors />
+    <Timeline />
     <Trends />
     <PostCss />
     <PostCssWebpack />
