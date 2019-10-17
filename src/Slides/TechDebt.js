@@ -2,16 +2,12 @@ import React from 'react';
 
 import {
   Center,
-  Fill,
   Heading,
-  Image,
   Layout,
-  Link,
   List,
   ListItem,
   S,
   Slide,
-  Text,
 } from '../components';
 
 export default () => (

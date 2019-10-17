@@ -27,6 +27,8 @@ import Features3 from './slides/Features3';
 import Features4 from './slides/Features4';
 import Features5 from './slides/Features5';
 import Features6 from './slides/Features6';
+import Thanks from './slides/Thanks';
+import Questions from './slides/Questions';
 import theme from './theme';
 
 export default () => (
@@ -55,5 +57,7 @@ export default () => (
     <Features4 />
     <Features5 />
     <Features6 />
+    <Thanks transitionIn={["spin"]} />
+    <Questions transitionIn={["fade"]} />
   </Deck>
 );
