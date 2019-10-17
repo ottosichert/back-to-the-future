@@ -16,14 +16,15 @@ import NestingCss from './slides/NestingCss';
 import Preprocessors from './slides/Preprocessors';
 import Postprocessors from './slides/Postprocessors';
 import Processors from './slides/Processors';
+import Trends from './slides/Trends';
+import PostCss from './slides/PostCss';
+import PostCssWebpack from './slides/PostCssWebpack';
 import Features1 from './slides/Features1';
 import Features2 from './slides/Features2';
 import Features3 from './slides/Features3';
 import Features4 from './slides/Features4';
 import Features5 from './slides/Features5';
 import Features6 from './slides/Features6';
-import PostCss from './slides/PostCss';
-import PostCssWebpack from './slides/PostCssWebpack';
 import theme from './theme';
 
 export default () => (
@@ -41,6 +42,7 @@ export default () => (
     <Preprocessors />
     <Postprocessors />
     <Processors />
+    <Trends />
     <PostCss />
     <PostCssWebpack />
     <Features1 />
