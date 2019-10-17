@@ -23,6 +23,7 @@ import Features4 from './slides/Features4';
 import Features5 from './slides/Features5';
 import Features6 from './slides/Features6';
 import PostCss from './slides/PostCss';
+import PostCssWebpack from './slides/PostCssWebpack';
 import theme from './theme';
 
 export default () => (
@@ -41,6 +42,7 @@ export default () => (
     <Postprocessors />
     <Processors />
     <PostCss />
+    <PostCssWebpack />
     <Features1 />
     <Features2 />
     <Features3 />
