@@ -18,6 +18,7 @@ import Postprocessors from './slides/Postprocessors';
 import Processors from './slides/Processors';
 import Timeline from './slides/Timeline';
 import Trends from './slides/Trends';
+import TechDebt from './slides/TechDebt';
 import PostCss from './slides/PostCss';
 import PostCssWebpack from './slides/PostCssWebpack';
 import Features1 from './slides/Features1';
@@ -45,6 +46,7 @@ export default () => (
     <Processors />
     <Timeline />
     <Trends />
+    <TechDebt />
     <PostCss />
     <PostCssWebpack />
     <Features1 />
