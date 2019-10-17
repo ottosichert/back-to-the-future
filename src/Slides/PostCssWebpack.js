@@ -4,12 +4,8 @@ import {
   Center,
   Code,
   CodePane,
-  Fill,
   Heading,
   Layout,
-  List,
-  ListItem,
-  S,
   Slide,
   Text,
 } from '../components';
@@ -38,7 +34,7 @@ const CssPlugin = require(
 module.exports = {
   module: {
     rules: [{
-      test: /\.css$/,
+      test: /\\.css$/,
       use: [
         CssPlugin.loader,
         'postcss-loader',

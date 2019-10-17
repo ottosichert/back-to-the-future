@@ -1,15 +1,6 @@
 import React from 'react';
 
-import {
-  Center,
-  Fill,
-  Heading,
-  Image,
-  Layout,
-  Link,
-  Slide,
-  Text,
-} from '../components';
+import { Image, Slide } from '../components';
 
 export default () => (
   <Slide>

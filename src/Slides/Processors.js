@@ -11,6 +11,11 @@ import {
   Text,
 } from '../components';
 
+/* sources 17.10.2019:
+- https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3
+- https://csspark.com/blog/css-pre-vs-post-processing/
+*/
+
 export default () => (
   <Slide>
     <Layout>

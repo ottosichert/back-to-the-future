@@ -29,7 +29,7 @@ export default () => (
           <ListItem textSize="1.5rem" margin="1rem">
             Add vendor prefixes <Code textSize="1.5rem">-webkit-*</Code>, <Code textSize="1.5rem">-moz-*</Code>, <Code textSize="1.5rem">-ms-*</Code> and <Code textSize="1.5rem">-o-*</Code>
           </ListItem>
-          <ListItem textSize="1.5rem" margin="1rem">Minify and remove unused styles</ListItem>
+          <ListItem textSize="1.5rem" margin="1rem">Remove unused styles and minify</ListItem>
           <ListItem textSize="1.5rem" margin="1rem">Inline imports and bundle</ListItem>
         </List>
       </Fill>

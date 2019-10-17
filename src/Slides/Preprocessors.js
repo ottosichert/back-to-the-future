@@ -29,6 +29,7 @@ export default () => (
             <Code textSize="1.5rem">*.less</Code>, <Code textSize="1.5rem">*.scss</Code> and <Code textSize="1.5rem">*.styl</Code> to <Code textSize="1.5rem">*.css</Code>
           </ListItem>
           <ListItem textSize="1.5rem" margin="1rem">Languages include various features: Variables, Mixins, Nesting, Functions</ListItem>
+          <ListItem textSize="1.5rem" margin="1rem">Languages are mostly CSS superset</ListItem>
         </List>
       </Fill>
     </Layout>

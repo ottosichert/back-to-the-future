@@ -2,14 +2,9 @@ import React from 'react';
 
 import {
   Center,
-  Code,
   CodePane,
-  Fill,
   Heading,
   Layout,
-  List,
-  ListItem,
-  S,
   Slide,
   Text,
 } from '../components';
