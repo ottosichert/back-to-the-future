@@ -31,25 +31,25 @@ import theme from './theme';
 
 export default () => (
   <Deck progress="bar" theme={theme}>
-    <Cover />
-    <Theme />
+    <Cover transition={["slide"]} />
+    <Theme transitionIn={["fade"]} />
     <Quine />
     <VariablesLess />
     <VariablesScss />
     <VariablesCss />
-    <Nesting />
+    <Nesting transitionIn={["fade"]} />
     <NestingLess />
     <NestingScss />
     <NestingCss />
-    <Preprocessors />
+    <Preprocessors transitionIn={["slide"]} />
     <Postprocessors />
-    <Processors />
-    <Timeline />
-    <Trends />
-    <TechDebt />
-    <PostCss />
+    <Processors transitionIn={["fade"]} />
+    <Timeline transitionIn={["zoom"]} />
+    <Trends transitionIn={["fade"]} />
+    <TechDebt transitionIn={["fade"]} />
+    <PostCss transitionIn={["slide"]} />
     <PostCssWebpack />
-    <Features1 />
+    <Features1 transitionIn={["fade"]} />
     <Features2 />
     <Features3 />
     <Features4 />
