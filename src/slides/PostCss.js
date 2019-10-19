@@ -17,7 +17,7 @@ export default () => (
         <Text fit>A tool for transforming CSS with JavaScript</Text>
       </Center>
       <Center>
-        <CodePane lang="git">{`
+        <CodePane lang="bash">{`
 # getting started with PostCSS
 npm install --save-dev \\
   cssnano \\

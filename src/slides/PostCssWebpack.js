@@ -19,7 +19,7 @@ export default () => (
         <Text fit>and using <Code textSize="1rem">mini-css-extract-plugin</Code></Text>
       </Center>
       <Center>
-        <CodePane lang="git">{`
+        <CodePane lang="bash">{`
 # using PostCSS with webpack
 npm install --save-dev \\
   webpack
